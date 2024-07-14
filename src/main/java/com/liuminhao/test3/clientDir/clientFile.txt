@@ -1,0 +1,3 @@
+clentfile testtranslate
+123456
+一二三
