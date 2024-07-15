@@ -3,6 +3,7 @@ package com.liuminhao.test3;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.UUID;
 
 public class Server {
 
@@ -19,7 +20,7 @@ public class Server {
             // 创建输入流，用于从客户端读取数据。
             BufferedInputStream bis = new BufferedInputStream(socket.getInputStream());
             // 创建输出流，用于将数据写入到本地文件。
-            BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("src/main/java/com/liuminhao/test3/serverDir/b.png"));
+            BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("src/main/java/com/liuminhao/test3/serverDir/"+ UUID.randomUUID().toString().replace("-", "")+".png"));
             // 创建输出流，用于向客户端发送文本信息。
             OutputStreamWriter writer = new OutputStreamWriter(socket.getOutputStream(), "UTF-8");
 

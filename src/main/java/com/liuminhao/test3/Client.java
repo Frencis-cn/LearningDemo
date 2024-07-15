@@ -38,7 +38,7 @@ public class Client {
 
             // 从Socket的输入流读取数据，并将其写入标准输出流，直到读取完毕
             while ((len = bufferedInputStreamServer.read(bytes)) != -1) {
-                System.out.write(bytes, 0, len);
+                System.out.print(new String(bytes, 0, len));
             }
 
         // 捕获并处理所有IOExceptions
@@ -46,5 +46,4 @@ public class Client {
             e.printStackTrace();
         }
     }
-
 }
