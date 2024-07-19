@@ -1,6 +1,12 @@
 package com.liuminhao.JUCDemo.ThreadDemo;
 
 public class MyThread extends Thread{
+    public MyThread() {
+    }
+
+    public MyThread(String name) {
+        super(name);
+    }
 
     @Override
     public void run() {

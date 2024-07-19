@@ -11,20 +11,31 @@ public class ThreadDemo1 {
 
          */
 
-        // 创建MyThread类的对象
-        MyThread myThread = new MyThread();
+        // 创建MyThread类的对象，为线程设置名称
+        MyThread myThread = new MyThread("线程1");
         MyThread myThread2 = new MyThread();
 
-        // 为线程设置名称
-        //开启线程
-        myThread.setName("线程1");
         myThread2.setName("线程2");
 
         // 启动线程
         myThread.start();
         myThread2.start();
 
+        /*
+         * 线程的方法
+         * 1.String getName() 获取线程的名称
+         * 2.void setName(String name) 设置线程的名称
+         * 3.static Thread currentThread() 获取当前线程
+         * 4.void sleep(long millis) 线程休眠
+         */
 
+        Thread currentThread = Thread.currentThread();
+        try {
+            currentThread.sleep(1000);
+            System.out.println(currentThread);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 

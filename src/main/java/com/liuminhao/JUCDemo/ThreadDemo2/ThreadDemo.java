@@ -17,10 +17,21 @@ public class ThreadDemo {
         //创建线程对象，开启线
         Thread t = new Thread(mr);
         t.setName("线程1");
+        /*
+            设置优先级
+            1.线程优先级范围1-10
+            2.优先级越高，抢到cpu的几率越大
+            3.默认优先级5
+            只是几率变大，不能保证优先级一定生效
+         */
+
+        t.setPriority(10);
+
         t.start();
         Thread t2 = new Thread(mr);
         t2.setName("线程2");
         t2.start();
+
 
     }
 }
