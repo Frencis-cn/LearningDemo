@@ -1,10 +1,10 @@
-package com.liuminhao.test5;
+package com.liuminhao.SocketDemo.test4;
 
 import java.io.*;
 import java.net.Socket;
 import java.util.UUID;
 
-public class MyRunnable implements  Runnable{
+public class MyRunnable  implements  Runnable{
 
     private final Socket socket;
 

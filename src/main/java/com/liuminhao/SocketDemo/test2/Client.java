@@ -1,4 +1,4 @@
-package com.liuminhao.test2;
+package com.liuminhao.SocketDemo.test2;
 
 import java.io.IOException;
 import java.io.InputStream;

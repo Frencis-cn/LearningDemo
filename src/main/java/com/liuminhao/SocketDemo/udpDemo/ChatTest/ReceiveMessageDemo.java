@@ -1,4 +1,4 @@
-package com.liuminhao.udpDemo.ChatTest;
+package com.liuminhao.SocketDemo.udpDemo.ChatTest;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

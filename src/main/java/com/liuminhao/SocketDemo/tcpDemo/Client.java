@@ -1,4 +1,4 @@
-package com.liuminhao.tcpDemo;
+package com.liuminhao.SocketDemo.tcpDemo;
 
 import java.io.IOException;
 import java.io.OutputStream;

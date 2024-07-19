@@ -1,6 +1,6 @@
-package com.liuminhao.test5;
+package com.liuminhao.SocketDemo.test5;
 
-import com.liuminhao.test4.MyRunnable;
+import com.liuminhao.SocketDemo.test4.MyRunnable;
 
 import java.io.IOException;
 import java.net.ServerSocket;

@@ -1,4 +1,4 @@
-package com.liuminhao.udpDemo;
+package com.liuminhao.SocketDemo.udpDemo;
 
 import java.io.IOException;
 import java.net.*;

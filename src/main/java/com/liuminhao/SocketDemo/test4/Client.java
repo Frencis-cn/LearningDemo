@@ -1,4 +1,4 @@
-package com.liuminhao.test4;
+package com.liuminhao.SocketDemo.test4;
 
 import java.io.*;
 import java.net.Socket;

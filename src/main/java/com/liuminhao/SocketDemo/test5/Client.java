@@ -1,4 +1,4 @@
-package com.liuminhao.test5;
+package com.liuminhao.SocketDemo.test5;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
